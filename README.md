@@ -7,6 +7,9 @@ Pensando em segurança estou mostrando como enviar um usuário e senha seguros p
 o login com criptografia ao enviar o usuário e senha não envia o texto puro e sim um texto criptografado com aes com uma senha.
 depois de logado pode ser usado o JWT (JSON Web Token) pra asegurar as outras requisições.
 <br><br>
+link do cripto-js sua documentação (nas pasta do ionicTeste tem arquivo leiame explicando detalhes fazer no ionic) 
+https://www.npmjs.com/package/crypto-js
+<br><br>
 <p align="center">
   <img src="/img/mosta chegou o user e senha cryptografado no api.png" width="750" title="hover text">
 </p>
