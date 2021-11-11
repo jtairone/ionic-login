@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<div class="flex-center">
+
+  <div>
+    <form (ngSubmit)="form1()">
+      <ion-label>Login com criptografia</ion-label>
+      <ion-item>
+        <ion-label position="floating">Usuário</ion-label>
+        <ion-input clearInput [(ngModel)]="todo.user" name="user"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input clearInput [(ngModel)]="todo.pass" name="pass" type="password"></ion-input>
+      </ion-item>
+      <ion-button expand="block" type="submit" block="Add Todo">Login1</ion-button>
+    </form>
+  </div>
+
+   <div>
+    <form (ngSubmit)="form2()">
+      <ion-label>Login sem criptografia</ion-label>
+      <ion-item>
+        <ion-label position="floating">Usuário2</ion-label>
+        <ion-input clearInput [(ngModel)]="todo2.user" name="user"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Senha2</ion-label>
+        <ion-input clearInput [(ngModel)]="todo2.pass" name="pass" type="password"></ion-input>
+      </ion-item>
+      <ion-button expand="block" type="submit" block="Add todo2">Login2</ion-button>
+    </form>
+  </div>
+
+</div>
+
+</ion-content>
