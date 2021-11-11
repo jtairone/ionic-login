@@ -1,0 +1,7 @@
+usar modulo crypto-js no Ionic
+npm i crypto-js
+npm i --save @types/crypto-js
+npm i --save-dev @types/crypto-js
+
+
+
