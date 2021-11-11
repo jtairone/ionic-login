@@ -1,4 +1,6 @@
 # ionic-login
+##Cenario utilizado deste exemplo, existe um software de gestão utilizado e quero colocar uma app realizar alguma tarefa e quero utilizar o mesmo user e senha o usuário já utiliza neste software sendo assim enviar o usuário e senha e valida se parte as credenciais com os estão gravados neste bando de dados do software se sim valida a entrada do usuário no APP...no meu ponto de vista ao enviar isso para a API seria uma dado sensivel e assim gostaria de enviar o mesmo criptogravado.
+<br><br>
 Pensando em segurança estou mostrando como enviar um usuário e senha seguros para um api enviando os dados cryptografados com uma senha secreta
 
 <p align="center">
